@@ -1,6 +1,6 @@
 patch:
   us_keyboard_layout: true     # 键盘选项：应用美式键盘布局
-  #"style/color_scheme": ink   # 选词皮肤
+  "style/color_scheme": ink   # 选词皮肤
   #"style/font_point": 18      # 字体大小
   style/horizontal: true       # 候選橫排
   #style/inline_preedit: true  # 內嵌編碼（僅支持TSF）
@@ -23,13 +23,7 @@ patch:
     ascii_mode: true
   app_options/com.sublimetext.3:
     ascii_mode: true
-  app_options/com.google.Chrome:
-    ascii_mode: true
-  app_options/org.mozilla.firefox:
-    ascii_mode: true
-  app_options/com.apple.Safari:
-    ascii_mode: true
-  app_options/com.operasoftware.Opera:
+  app_options/com.agilebits.onepassword4:
     ascii_mode: true
   app_options/org.keepassx.keepassx:
     ascii_mode: true
