@@ -1,5 +1,12 @@
 patch:
   "menu/page_size": 6   # 每頁候選數
+  schema_list:
+    - schema: luna_pinyin          # 朙月拼音
+    - schema: luna_pinyin_simp     # 朙月拼音 简化字模式
+    - schema: wubi86               # 五笔86
+    - schema: wubi_pinyin          # 五笔拼音混合輸入
+    # - schema: ipa_xsampa    # X-SAMPA 國際音標
+    - schema: emoji         # emoji表情
   "punctuator/full_shape/%":
       - "%"
       - "‰"

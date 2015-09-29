@@ -1,7 +1,8 @@
 patch:
+  us_keyboard_layout: true     # 键盘选项：应用美式键盘布局
   #"style/color_scheme": ink   # 选词皮肤
   #"style/font_point": 18      # 字体大小
-  #style/horizontal: true      # 候選橫排
+  style/horizontal: true       # 候選橫排
   #style/inline_preedit: true  # 內嵌編碼（僅支持TSF）
 
   # 關閉中文輸入
@@ -14,6 +15,13 @@ patch:
   app_options/com.apple.Xcode:
     ascii_mode: true
   app_options/org.vim.MacVim:
+    ascii_mode: true
+    no_inline: true
+  app_options/org.gnu.Emacs:
+    ascii_mode: true
+  app_options/com.github.atom:
+    ascii_mode: true
+  app_options/com.sublimetext.3:
     ascii_mode: true
   app_options/com.google.Chrome:
     ascii_mode: true
