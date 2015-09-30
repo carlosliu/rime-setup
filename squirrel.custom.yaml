@@ -29,5 +29,5 @@ patch:
     ascii_mode: true
   app_options/com.apple.Spotlight:
     ascii_mode: true
-  app_options/com.github.Github:
+  app_options/com.github.GitHub:
     ascii_mode: true
