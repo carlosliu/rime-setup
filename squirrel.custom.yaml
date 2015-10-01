@@ -23,6 +23,8 @@ patch:
     ascii_mode: true
   app_options/com.sublimetext.3:
     ascii_mode: true
+  app_options/com.microsoft.VSCode:
+    ascii_mode: true
   app_options/com.agilebits.onepassword4:
     ascii_mode: true
   app_options/org.keepassx.keepassx:
